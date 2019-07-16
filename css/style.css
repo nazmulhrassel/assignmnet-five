@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.header{
+    width: 100%;
+    height: 130px;
+    background-color: #121b2a;
+    box-shadow: 0px 5px 10px 0px #000000;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+    padding: 25px 0;
+}
+.logo img{}
+.manu{
+    width: 80%;
+    float: left;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 90px;
+}
+.manu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.manu ul li{
+    list-style: none;
+}
+.manu ul li a{color: white;text-decoration: none;padding: 22px 21px 0 22px;text-transform: uppercase;font-size: 16px;}
+.manu ul li a:hover{
+    color: #0078bf;
+}
+
+
+
+.banner{
+    height: 560px;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.content{
+    padding-top: 12em;
+    width: 52%;
+    display: block;
+}
+.content h1{
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+}
+.content h2{
+    font-size: 40px;
+    font-weight: 900;
+    color: #0078bf;
+}
+.content p{
+    font-size: 18px;
+    color: white;
+    padding: 5px 0;
+}
+.button button{
+    margin-top: 25px;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 15px;
+    color: gray;
+    border: 0;
+    border-radius: 4px;
+}
+.button button i{
+    color: #0078bf;
+    margin-left: 10px;
+}
+
+
+
+.wrapper_services{
+    width: 100%;
+    background-color: #121B2C;
+    overflow: hidden;
+    box-shadow: 0 -5px 15px 0px #000000;
+}
+
+.service_part {width: 303px;float: left;margin: 15px;padding: 25px 15px;}
+
+.service_top {width: 100%;overflow: hidden;height: 85px;}
+
+.icon {width: 20%;float: left;padding-top: 15px;}
+.icon img{width: 100%;}
+
+.icon_content {width: 80%;float: left;padding-left: 10px;}
+
+.icon_content h2{
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.icon_content h3{
+    font-size: 25px;
+    color: #0078bf;
+    font-weight: 900;
+    margin-top: -5px;
+}
+
+.service_bottom {padding: 20px 0;}
+.service_bottom p{
+    font-size: 16px;
+    color: white;
+    font-weight: normal;
+}
+
+
+.wrapper_contact{
+    background: #040811;
+    width: 100%;
+}
+
+.address{
+    width: 303px;
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+}
+.address h4{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 9px;
+}
+.address h4 b{
+    color: #3672BD;
+    font-weight: 900;
+}
+address span{
+    padding-left: 30px;
+}
+
+.contact_content{
+
+max-width: 100%;
+}
+
+.contact_content img{
+    width: 100%;
+}
+
+.wrapper_footer{
+    background: #121B2C;
+    padding: 30px 0;
+}
+.nav_footer{
+    width: 60%;
+    overflow: hidden;
+    float: left;
+}
+.nav_footer ul{
+    list-style: none;
+    display: flex;
+}
+.nav_footer ul li{}
+.nav_footer ul li a{
+    text-decoration: none;
+    padding: 10px 13px;
+    color: #fff;
+    background-color: transparent;
+    border: .5px solid #fff;
+    border-left: none;
+    font-size: 14px;
+    font-weight: normal;
+}
+.nav_footer ul li a:hover{
+    color: #0078bf;
+}
+.copy_right{
+    width: 60%;
+    padding: 10px 12px;
+    float: left;
+}
+.copy_right p{
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+}
+.sym{
+    width: 20%;
+    float: right;
+}
+.sym img{}
+.logo2{
+    width: 20%;
+    float: right;
+}
+.logo2 img{}
